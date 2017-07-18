@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Xcode 7.0">
+    <entity name="History" representedClassName="History" syncable="YES">
+        <attribute name="cailiao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="formulaID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="formulaName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gongxiao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imgUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shareurl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="steps" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoUrl" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Liulanjilu" representedClassName="Liulanjilu" syncable="YES">
+        <attribute name="gongxiao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idss" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageliulan" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shareUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="step" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleFirst" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleSecond" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoURL" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="History" positionX="-63" positionY="-18" width="128" height="165"/>
+        <element name="Liulanjilu" positionX="-63" positionY="18" width="128" height="165"/>
+    </elements>
+</model>
